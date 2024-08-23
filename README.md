@@ -41,3 +41,8 @@ If you'd like to contribute to this project, please fork the repository and subm
 ---------
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributors
+---------------
+
+Ayush Rawat | Shubham Pochhali
