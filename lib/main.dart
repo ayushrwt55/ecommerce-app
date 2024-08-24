@@ -19,13 +19,13 @@ void main() async {
   if (Platform.isAndroid) {
     await Firebase.initializeApp(
         options: const FirebaseOptions(
-            apiKey: "AIzaSyDTQpz0sROCEQdSydZyBR1Wl6dzAv-Ving",
-            authDomain: "ecommerceapp-2bddc.firebaseapp.com",
-            projectId: "ecommerceapp-2bddc",
-            storageBucket: "ecommerceapp-2bddc.appspot.com",
-            messagingSenderId: "172740354558",
-            appId: "1:172740354558:android:653215326820d1220920af",
-            measurementId: "G-6DF96MZLQ6"));
+            apiKey: "Your API KEY",
+            authDomain: "YOUR AUTH DOMAIN",
+            projectId: "YOUR PROJECT ID",
+            storageBucket: "YOUR STORAGE BUCKET",
+            messagingSenderId: "YOUR MESSAGING SENDERID",
+            appId: "YOUR APP ID",
+            measurementId: "YOUR MEASUREMENT ID"));
   } else {
     await Firebase.initializeApp();
   }
